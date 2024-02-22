@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import BasicsToAdvance from "./Pages/BasicsToAdvance/BasicsToAdvance";
+// import PostGenerator from "./Pages/Examples/PostGenerator/PostGenerator";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Basics to advance topics */}
+      <BasicsToAdvance />
+
+      {/* uncomment to see the example */}
+      {/* <h1 style={{
+        paddingLeft: '20px'
+      }}>Examples</h1>
+     <PostGenerator /> */}
     </div>
   );
 }
